@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MiniMercado</title>
+        <link rel="stylesheet" href="headerFooter.css">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <header>
+            <h1>MiniMercado</h1>
+        </header>
+        <main>
+            <section class="form">
+                <h1>Login</h1>
+                <p id="textDados">Nos campos abaixo, informe seus dados de login</p>
+                </div>
+                <form class="dados">
+                    <input type="text" name="CPF" id="CPF" placeholder="CPF (somente números)" maxlength="11" oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*?)\..*/g, '$1');" >
+                    <input type="password" name="senha" id="senha" placeholder="Senha (4+ dígitos)">
+                    <label>
+                        <input type="checkbox" id="mostrar"/>
+                        <span>Mostrar senha</span>
+                    </label> 
+                    <div id="aviso"></div>
+                </form>
+                <input type="button" value="Avançar" onclick="avancar()" id="avancar">
+                <div class="criarConta">
+                    <p class="textDados">Não tem uma conta?</p>
+                    <a href="cadastro.html">Clique aqui</a>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Feito por Adrian Fachi</p>
+            <p>Contato: (51) 996105286</p>
+        </footer>
+        <script src="login.js"></script>
+    </body>
+</html>

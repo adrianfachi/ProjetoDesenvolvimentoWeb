@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#titulo {
+    padding: 50px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+#voltar {
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;   
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: auto;
+    background-color: #95aa61;
+    color: #121310;
+    border:1px solid #121310; 
+}

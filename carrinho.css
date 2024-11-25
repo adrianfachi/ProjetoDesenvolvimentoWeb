@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    text-align: center;
+}
+
+main {
+    padding-bottom: 100px;
+}
+
+#titulo {
+    padding: 50px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+#principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+    padding: 20px;
+    border-top: #121310 1px solid;
+    justify-content: space-between;
+
+}
+
+
+
+#compra {
+    background-color: #d6e68a;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: auto;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.botoes {
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;   
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: auto;
+}
+
+#continuarCompras {
+    background-color: #95aa61;
+    color: #121310;
+    border:1px solid #121310; 
+}
+
+#finalizarCompra {
+    background-color: #121310;
+    color: #ffffff;
+}
+
+
+.retirada {
+    border-radius: 5px;
+	padding: 0.8rem;
+	background-color: #ffffff;
+	border: #ffffff solid 1px;
+	width: 200px;
+	font-family: var(--font-outfit);
+	text-decoration: none;
+}
+
+#textoHora {
+    color: red;
+}
+.remove-item {
+    color: red;
+    border: solid 2px red;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(255, 0, 0, 0.16);
+    margin-right: 10px;
+}
+
+.img-cart {
+    width: 100px;
+    border: #121310 1px solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.textoItens {
+    margin-right: 50px;
+    font-family: "Lato", sans-serif;
+}
+
+.textoItens:first-letter { text-transform: capitalize; }

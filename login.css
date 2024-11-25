@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+main {
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-family: "Lato", sans-serif;
+}
+
+.form {
+    background-color: #d6e68a;
+    padding: 20px;
+    border-radius: 10px;
+    padding-top: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 1.7rem;
+}
+
+#textDados {
+    font-size: .8rem;
+}
+
+.direitos {
+    font-size: .5em;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dados > input {
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #e9e9e9;
+}
+
+#DDD {
+    width: 50px;
+}
+
+.telefone {
+    display: flex;
+    gap: 5px;
+}
+.telefone > input {
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #e9e9e9;
+    width: auto;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.criarConta {
+    display: flex;
+    gap: 5px;
+}
+
+#avancar {
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #95aa61;
+    color: #121310;
+    border:1px solid #121310; 
+}

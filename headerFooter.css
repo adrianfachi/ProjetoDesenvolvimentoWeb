@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+}
+
+main {
+    padding-bottom: 20vh;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f6f8ee;
+    height: auto;
+    padding: 1.5vw;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    h1 {
+        color: #95aa61;
+        font-size: 3rem;
+    }
+}
+
+.header {
+    display: flex;
+    gap: 20px;
+    a {
+        text-decoration: none;
+        color: #121310;
+        font-size: 1.25rem;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+#carrinho {
+    text-decoration: none;
+    color: #121310;
+    font-size: 1.25rem;
+}
+
+#login {
+    display: flex;
+    gap: 10px; 
+    flex-direction: column;
+    a{ 
+        text-decoration: none;
+        color: #121310;
+        font-size: 1rem;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal; 
+    }
+
+}
+
+footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f6f8ee;
+    height: auto;
+    padding: 1.5vw;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
